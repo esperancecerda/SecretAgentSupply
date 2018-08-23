@@ -3,24 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>Secret Agent Supply Inc.</title>
-    <link rel="stylesheet" type="text/css" href="./css/reset.css">
-    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
   </head>
   <body>
 
+<!-- header-->
 <header>
-  <div class="container logo">
-    <img src="./resources/images/logo.png" alt="Icon of binoculars">
-    <h2>Secret Agent Supply Inc.</h2>
+  <div class="company">
+    <div class="container">
+      <img src="./resources/images/logo.png" alt="Icon of binoculars">
+      <h2>Secret Agent Supply Inc.</h2>
+    </div>
   </div>
-
-  <div class="container banner">
+  <!-- banner-->
+<div class="main-banner">
+  <div class="container">
+    <div class="banner text">
       <h2>New Arrival</h2>
       <h1>Sport bikes and motorcyles</h1>
+    </div>
   </div>
+</div>
 
-  <nav class="header nav">
-        <ul>
+<!-- menu navigation-->
+  <nav>
+        <ul class="container">
           <li><a href="#">Eyewear</a></li>
           <li><a href="#">Apparel</a></li>
           <li><a href="#">Gadgets</a></li>
@@ -28,41 +36,54 @@
           <li><a href="#">Classes</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
+        <ul class="mobile-nav container">
+          <li><a href="#">Menu</a></li>
+        </ul>
   </nav>
 </header>
 
-<div class="container main">
-
-    <div class="subcontainer store">
-      <div class="item">
-        <img src="./resources/images/pen.png" alt="fancy pen">
-        <h3>Exploding Pen</h3>
+<!-- products and store info-->
+<div class="container">
+    <div class="store">
+      <div  class="item">
+        <div class="item-image">
+          <img id="pen" src="./resources/images/pen.png" alt="fancy pen">
+        </div>
+      <span class="item-info">Exploding Pen</span>
+    </div>
+      <div  class="item watch">
+        <div class="item-image">
+          <img id="watch" src="./resources/images/watch.png" alt="Fancy metal watch">
+        </div>
+        <span class="item-info">Cellular Watch</span>
       </div>
-
-      <div class="item">
-        <img src="./resources/images/watch.png" alt="Fancy metal watch">
-        <h3>Cellular Watch</h3>
-      </div>
-
-      <div class="item">
-        <img src="./resources/images/glasses.png" alt="Fancy sunglasses">
-        <h3>Thermal Glasses</h3>
+    <div  class="item glasses">
+        <div class="item-image">
+          <img id="glasses" src="./resources/images/glasses.png" alt="Fancy sunglasses">
+        </div>
+        <span class="item-info">Thermal Glasses</span>
       </div>
     </div>
 
-    <div class="subcontainer details">
-        <div class="location">
-          <h3>Location</h3>
-          <p>47.346436, 84.32354</p>
+    <div class="details">
+        <div class="business-info">
+          <div class="info">
+            <span class="title">Location</span>
+            <span>47.346436, 84.32354</span>
+          </div>
+        <div class="info">
+            <span class="title">Hours</span>
+            <span>0800 - 1800</span>
+       </div>
         </div>
-        <div class="hours">
-          <h3>Hours</h3>
-          <p>0800 - 1800</p>
-        </div>
-    </div>
-<footer>
-  <p>Copyright Secret Agent Supply Inc.</p>
-</footer>
+   </div>
 </div>
+<footer>
+  <div class="container">
+    <span>Copyright Secret Agent Supply Inc.</span>
+  </div>
+</footer>
+
+
   </body>
 </html>
